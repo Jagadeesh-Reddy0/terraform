@@ -16,7 +16,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "Jenkins VMS"
+  default     = "Jenkins VM"
 }
 
 variable "tag_name" {
