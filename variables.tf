@@ -6,7 +6,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "Jenkins VMS"
+  default     =  "Jenkins VM"
 }
 
 variable "instance_type" {
@@ -16,7 +16,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "Jenkins VM"
+  default     = "Jenkins VMS"
 }
 
 variable "tag_name" {
